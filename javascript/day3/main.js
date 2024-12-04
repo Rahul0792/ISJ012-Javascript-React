@@ -88,12 +88,69 @@ console.log("10" != 11); // true        ========================================
 
 
 
-
-
 // 7. triple equal to operator / strict equality / check data with data type  =====================================================================
 
 console.log(10 === "10"); // false      check data with data type =======================================================  
 console.log("10" === 10); // false       check data with data type =======================================================
+
+
+// 8 . increment and decrement operator  (  ++  )  (  --  )
+
+// pre increment  
+let num = 10;
+console.log(++num);
+
+// post increment
+console.log(num++);
+
+// pre decrement
+ num = 10;
+console.log(--num);
+
+// post decrement
+console.log(num--);
+
+
+// 9. Ternary Operator
+
+10 > 10 ? console.log("yes ") : console.log("No"); // No  //========================================================
+
+
+//  10 . Compound assignment openator
+let number = 20;
+
+number = number + 10;   
+number += 10;           
+
+console.log(number);
+
+//  bitwise  operator   <<  >>
+
+
+// decision making statements
+
+if (10 > 5) {
+  console.log("yes");
+} else {
+  console.log("No");
+}
+
+
+let age = 23;
+if (age >= 18) {
+  console.log("You can vote");
+} else {
+  console.log("You can not vote");
+}
+
+age = 21;
+let gen = 'M';
+if(( age >= 21 && gen === 'M') || ( age >= 18  &&  gen === 'F' ) ){
+  console.log("You can marry");
+} else {
+  console.log("You cannt' marry");
+}
+
 
 
 
