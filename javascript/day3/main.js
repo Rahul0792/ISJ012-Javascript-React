@@ -143,13 +143,17 @@ if (age >= 18) {
   console.log("You can not vote");
 }
 
-age = 21;
+
+age = 22;
 let gen = 'M';
-if(( age >= 21 && gen === 'M') || ( age >= 18  &&  gen === 'F' ) ){
-  console.log("You can marry");
+if(( age >= 21  &&  gen === 'M') || ( age >= 18  &&  gen === 'F' ) ){
+  console.log(" Congratulations ,You can marry");
 } else {
-  console.log("You cannt' marry");
+  console.log(" sorry , You cannt' marry");
 }
+
+
+
 
 
 
