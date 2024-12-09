@@ -1,4 +1,6 @@
-// // question 1st
+"use strict";
+let num;
+//  question 1st
 function showreasult() {
   let num1 = prompt("Enter First Number ");
   let num2 = prompt(" Enter Second Number ");
@@ -8,16 +10,14 @@ function showreasult() {
 }
 
 
-
-// // question 2nd
+//  question 2nd
 let fName = prompt("Enter First name ");
 let lName = prompt("Enter Last name ");
 alert(`My name is ${fName} ${lName}`)
 
 
-
-// // question 3rd
-let num = prompt("Enter Number ");
+//  question 3rd
+num = prompt("Enter Number ");
 if (+num % 2 === 0) {
   alert("Even Number");
 }
@@ -27,14 +27,12 @@ else {
 
 
 
-/// question 4th
+// question 4th
 stringName("Rahul Khilari");
 
 function stringName(name) {
   console.log(" length of string is ", name.length);
 }
-
-
 
 
 
@@ -45,14 +43,12 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
-
 // question 5th
 let sum = 0;
 for (let i = 1; i <= 100; i++) {
   sum = sum + i;
 }
 console.log("sum is ", sum);
-
 
 
 // question 6
@@ -70,6 +66,5 @@ else if (+eNum2 > +eNum3) {
 }
 
 // question 7
-
 
 
