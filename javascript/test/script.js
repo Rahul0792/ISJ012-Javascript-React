@@ -1,5 +1,5 @@
 "use strict";
-let num;
+let num;  // Declared here for all question
 //  question 1st
 function showreasult() {
   let num1 = prompt("Enter First Number ");
