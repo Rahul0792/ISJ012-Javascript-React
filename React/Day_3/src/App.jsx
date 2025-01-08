@@ -13,7 +13,7 @@ function App() {
     console.log(counter);
     setCounter(counter + 2);
     function calculateSum() {
-      return { num1 + num2 };
+      return {  };
     }
   }
 
