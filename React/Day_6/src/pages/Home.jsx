@@ -6,9 +6,15 @@ const Home = () => {
       <h1>Home</h1>
 
       {/* Just Like anker tag  */}
+    
       <Link to="About">About</Link>
-      <Link to="contact">Contact</Link>
-      <Link to="NotFound">Notfound</Link>
+      <br />
+      <Link to="contact">Contact</
+      Link>
+      <br />
+        <Link to="NotFound">Notfound</Link>
+
+      
 
     </div>
   )
