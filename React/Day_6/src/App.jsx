@@ -20,6 +20,10 @@ function App() {
           {/* * means if path is incorrect then it open its perticular page  */}
           <Route path='*' element={<NotFound />}></Route>
 
+
+
+          <Route path='Contact/:id' element={< Contact />}></Route>
+
         </Routes>
       </BrowserRouter>
     </>
