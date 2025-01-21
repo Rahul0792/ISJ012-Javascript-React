@@ -66,7 +66,7 @@ switch (day) {
 
 let role = "admin";
 if (role === "admin") console.log("You can upload cource");
-else if (role === "studet") console.log("You can access the cource");
+else if (role === "student") console.log("You can access the cource");
 else console.log("Access blocked");
 
 
@@ -169,7 +169,22 @@ for (let i = 1; i <= 100; i++) {
     console.log(i);
 }
 
-for (; ; ) {     // =====================================================
+// for (; ; ) {     // =====================================================
 
-    console.log("hello"); // Infinite loop
+//     console.log("hello"); // Infinite loop
+// }
+
+
+//==================================
+
+console.log("=============================");
+
+
+
+for (let i = 1; i <= 50 ; i++) {
+  if (i % 3 === 0) {
+    console.log("fizz");
+  }
+  else
+    console.log(i);
 }
