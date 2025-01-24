@@ -1,5 +1,14 @@
 "use strict"
 
+//Labelled Loop                                //========================================================================
+outerLoop:
+for (let m = 1; m <= 100; m++) {
+  innerLoop:
+  for (let n = 1; n <= 50; n++) {
+    break outerLoop;                           // Used for braking outer loop  
+  }
+}
+
 let i = 1;
 
 for (i; i <= 20; i++) {
@@ -77,13 +86,13 @@ for (let i = 1; i <= 100; i++) {
 
 //Function
 
-// alert("msg");     //  For showing alert message on browser
-// confirm("msg");   //  It returns boolean value  true / false
+// alert("msg");                          //  For showing alert message on browser
+// confirm("msg");                        //  It returns boolean value  true / false
 // prompt("question");
 
 
 // 1st method to convert string into number   //==================================================================
-//    +"10"      sttring chya adhi no dyaycha
+//    +"10"      string chya adhi + dyaycha
 
 // 2nd method to convert string into number   //==================================================================
 // parseInt("number");
@@ -97,3 +106,44 @@ for (let i = 1; i <= 100; i++) {
 
 // const answer = prompt("What is your name ");
 // alert(`${answer} you will be great front end developer `);
+
+console.log("======================================================");
+
+i = 2;
+while (i <= 100) {
+  console.log(i);
+  i += 2;
+}
+
+console.log("======================================================");
+
+
+//Function for printing maximum number : 
+const max = Math.max(1, 2, 5, 7, 8, 96, 55, 989);                    //===============================================================
+console.log(max);
+
+//Function for printing minimum number : 
+const min = Math.min(1, 2, 5, 7, 8, 96, 55, 989);                    //===============================================================
+console.log(min);
+
+//Generate random number between 0 -  1 
+const randomNumber = Math.random();
+console.log(randomNumber);
+
+//Math floor 
+const floorNumber = Math.floor(20.5);
+console.log(floorNumber);
+
+//Math ceil
+const ceilNumber = Math.ceil(20.5);
+console.log(ceilNumber);
+
+// Math Round 
+const mathRound = Math.round(3.5);
+console.log(mathRound);
+
+
+
+
+
+
