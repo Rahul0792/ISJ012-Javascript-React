@@ -52,3 +52,43 @@ else if (num10 > num11) {
 else {
   console.log(num11)
 }
+
+
+// Convert Number to string =====================================================================
+let num55 = 100;
+let stringNum = num55.toString();   //========================================
+console.log(typeof stringNum);
+
+
+let num90 = 121;
+let rev = 0;
+let temp = num90;
+while (num90 > 0) {
+  let r = num90 % 10;
+  rev = rev * 10 + r;
+  num90 = Math.floor(num90 / 10); //==================================================================================================================
+}
+console.log(rev);
+if (temp == rev) {
+  console.log("Number is pallindrome");
+}
+else {
+  console.log("Number is not pallindrome");
+}
+
+
+//  Pattern      ======================================================================================================
+let pattern = "";
+for (let i = 1; i <= 3; i++) {
+  for (let j = 1; j <= i; j++) {
+    pattern = pattern + "* ";
+  }
+  pattern = pattern + "\n";
+}
+console.log(pattern);
+
+
+
+
+
+

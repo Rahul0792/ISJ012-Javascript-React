@@ -142,7 +142,9 @@ console.log(ceilNumber);
 const mathRound = Math.round(3.5);
 console.log(mathRound);
 
-
+let num = 100;
+let stringNum = num.toString();
+console.log("num");
 
 
 
